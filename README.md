@@ -8,3 +8,6 @@ os kernel은 기반 하드웨어와 상호 작용하는 역할을 하며 소프트웨어는 ui, 드라이버 
 
 Docker는 같은 커널을 가지고 있다면 어떤 운영체제든 실행 할 수 있다. 
  
+
+ ## docker 명령어 정리
+ `docker run -p 8080:80 [imageId]` : -p는 publish 옵션 이므로 8080포트로 들어온 여총을 dockerfile에 `EXPOSE 80 `로 명시해놓았다면 80 포트로 연동 해라
