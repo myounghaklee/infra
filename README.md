@@ -24,3 +24,8 @@ Docker는 같은 커널을 가지고 있다면 어떤 운영체제든 실행 할 수 있다.
 - see --help : 세부사항 보기 
 - docker ps : 컨테이너 리스트
 - docker rm : 컨테이너 삭제
+
+
+### start vs run 
+- `docker run`: attached 모드가 기본
+- `docker start`: detached 모드가 기본
